@@ -1,0 +1,5 @@
+com\itz\bank\Banco.class
+com\itz\bank\Investimento.class
+com\itz\bank\Transacao.class
+com\itz\bank\ContaInvestimento.class
+com\itz\bank\Database.class

@@ -15,13 +15,14 @@ public class Cliente {
     String senha;
     
     ContaCorrente contaCorrente;
-    Conta contaInvestimento;
+    ContaInvestimento contaInvestimento;
     
-    public Cliente(String cpf, String nome, String username, String senha, ContaCorrente corrente){
+    public Cliente(String cpf, String nome, String username, String senha, ContaCorrente corrente, ContaInvestimento investimento){
         this.cpf = cpf;
         this.nome = nome;
         this.username = username;
         this.senha = senha;
         this.contaCorrente = corrente;
+        this.contaInvestimento = investimento;
     }
 }
